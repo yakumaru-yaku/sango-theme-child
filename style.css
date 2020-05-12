@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*
+ Theme Name: SANGO Child
+ Theme URI: https://saruwakakun.design
+ Author: SARUWAKA
+ Author URI: https://saruwakakun.com
+ Template: sango-theme
+ Version: 4.0
+*/
+
+/*こちらはSANGOの子テーマ用CSSです。以下にCSSを記入していきましょう。*/
+
+/* ウィジェットプロフィール調整 */
+.yourprofile {
+    padding: 10px 0;
+}
+.yourprofile .profile-img {
+    margin: 10px auto 0;
+}
+.profile-content {
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+.yourname.dfont {
+    margin-bottom: 0;
+}
+#custom_html-2 .widgettitle.dfont.has-fa-before:before {
+    content: "\f2c2";
+}
+/* フッターのh4の左の棒の色 */
+h4.ft_title {
+    border-color: #6bb6ff;
+}
+/* h2見出し調整 */
+section.entry-content.cf h2 {
+    background-color: #58a9ef;
+    padding: 0.5em 0.5em 0.5em 0.75em;
+    margin: 2.5em 0 1em;
+    color: white;
+    border: 0;
+    box-shadow: none;
+    font-weight: bold;
+    margin: 2.5em 0 0.7em;
+    font-size: 1.4em;
+    line-height: 1.6;
+}
+/* h2見出しの左にペケ */
+#entry h2:before {
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+}
+/* 外部リンクのアイコン表示 */
+#main a[target="_blank"]:after:not('.sns-btn.sns-dif .sns-btn__item a[target="_black"]') {
+    font-family: "Font Awesome 5 Free";
+    content: "\f360";
+    margin: 0 4px;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: silver;
+}
+/* 別タブで開く */
+.fas.fa-external-link-square-alt {
+    font-family: "Font Awesome 5 Free";
+    content: "\f360";
+    margin: 0 4px;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: silver;
+}
+/* ウィジェットの目次アイコン設置 */
+#ezw_tco-2 .ez-toc-title:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0ca";
+  font-weight: 900;
+  padding-right: 4px;
+}
+/* TOCプラグインの目次のmargin-leftを詰める */
+#ez-toc-container .ez-toc-list.ez-toc-list-level-1 {
+  margin-left: 0;
+}
+/* TOCプラグインの目次の黒ポチを消す */
+#ez-toc-container ul {
+  list-style-type: none;
+}
+/* TOCプラグインの目次をウィジェットの目次アイコンのデザインに合わせる */
+#ez-toc-container ul .ez-toc-heading-level-3:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  padding-right: 4px;
+  color: silver;
+}
+/* 記事一覧タブ切替ホバー時 */
+.post-tab.cf div:hover {
+    opacity: 0.75;
+}
+/* フッターコピーライトとプライバシーポリシーの文字サイズを合わせる */
+#footer-menu .privacy-policy-link {
+    font-size: 13.5px;;
+}
+
+
