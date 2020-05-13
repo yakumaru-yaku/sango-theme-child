@@ -108,3 +108,31 @@ section.entry-content.cf h2 {
 #footer-menu .privacy-policy-link {
     font-size: 13.5px;;
 }
+/* お問い合わせ調整 */
+form.wpcf7-form, .article-header.entry-header.page-header {
+    width: 80%;
+    margin: 0 auto;
+}
+form.wpcf7-form label {
+    font-size: 85%;
+}
+.entry-content p {
+    margin: 0 0 1em;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    line-height: 80%;
+}
+form.wpcf7-form input[type="text"] {
+    line-height: 1;
+}
+.profile-content {
+    font-size: 85%;
+    text-align: center;
+}
+.profile-content > p {
+    text-align: left;
+}
+.wpcf7-form-control.wpcf7-submit {
+    font-size: 85%;
+    padding: 0.15em 1em;
+}
