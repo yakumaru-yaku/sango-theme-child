@@ -136,3 +136,19 @@ form.wpcf7-form input[type="text"] {
     font-size: 85%;
     padding: 0.15em 1em;
 }
+#header-image {
+    height: 380px;
+}
+.header-image__text {
+    padding: 10% 20px 0;
+}
+.top-header-image-txt {
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+}
+/* ヘッダーアイキャッチボタン */
+a.raised.rippler.rippler-default {
+    background: #42A5F5 !important;
+    font-size: 100%;
+}
