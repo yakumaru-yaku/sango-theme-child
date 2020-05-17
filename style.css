@@ -143,12 +143,19 @@ form.wpcf7-form input[type="text"] {
     padding: 10% 20px 0;
 }
 .top-header-image-txt {
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
     color: white;
 }
 /* ヘッダーアイキャッチボタン */
 a.raised.rippler.rippler-default {
-    background: #42A5F5 !important;
+    background: #252525 !important;
     font-size: 100%;
+    font-weight: bold;
+}
+/* ヘッダーアイキャッチボタンホバー */
+a.raised.rippler.rippler-default:hover {
+    background-color: silver !important;
+    color: #252525;
+    font-weight: bold;
 }
