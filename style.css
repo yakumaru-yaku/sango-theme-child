@@ -125,6 +125,7 @@ textarea.wpcf7-form-control.wpcf7-textarea {
 form.wpcf7-form input[type="text"] {
     line-height: 1;
 }
+/* プロフィール */
 .profile-content {
     font-size: 85%;
     text-align: center;
@@ -136,6 +137,7 @@ form.wpcf7-form input[type="text"] {
     font-size: 85%;
     padding: 0.15em 1em;
 }
+/* ヘッダー */
 #header-image {
     height: 380px;
 }
